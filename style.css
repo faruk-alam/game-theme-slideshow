@@ -1,0 +1,21 @@
+.wrapper{
+    background-color: #222;
+    color: rgb(243, 183, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.element{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%) scale(0);
+
+}
+.element h1,i{
+    font-size: 80px;
+}
+.element.current{
+    transform: translate(-50%,-50%) scale(1);
+    transition: 0.5s;
+}
